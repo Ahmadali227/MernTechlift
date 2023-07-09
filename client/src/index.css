@@ -1,0 +1,164 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/* LOGIN FORM STYLING */
+.login_img{
+  background-image: url("https://st3.depositphotos.com/1010613/18120/i/1600/depositphotos_181200048-stock-photo-close-businessperson-hand-calculating-bill.jpg");
+  width: 100%; height:100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, .15);
+
+}
+
+.bold{
+  font-weight:bold;
+}
+.butn{
+  background-color: #014F7F!important;
+  color: white!important;
+}
+.login_card{
+  background-color: rgba(153, 152, 150, 0.658);
+  width: 350px;
+  height: 300px;
+  border-radius: 10px;
+ margin: 0 auto;
+margin-top: 30px;
+}
+.white{
+  color: white;
+}
+
+.content{
+  height: 100%;
+}
+.navbar{
+background-color: #014F7F;
+height: 63px;
+
+}
+.register-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+/* filters */
+.filters{
+  display: flex;
+ align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow: 0 0 3px gray;
+  gap: 20px;
+  background-color: silver;
+}
+.anticon svg{
+  font-size: 20px;
+cursor: pointer;
+}
+.active-icon{
+  color: rgb(252, 0, 0);
+}
+.inactive-icon{
+  color: gray
+}
+.switch-icons{
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.644);
+  border-radius: 5px;
+  padding: 7px 14px;
+}
+
+/* ///////PAGE 404//////// */
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.not-found-title {
+  font-size: 4rem;
+  color: #ff0000;
+  margin-bottom: 1rem;
+}
+
+.not-found-message {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.not-found-image {
+  width: 300px;
+  height: auto;
+}
+
+
+
+
+/* ////////ANALYTICAL PAGE///////// */
+
+
+
+.card{
+  backdrop-filter: blur(8px) saturate(40%)!important;
+    -webkit-backdrop-filter: blur(8px) saturate(40%)!important;
+    background-color: rgba(17, 25, 40, 0.27)!important;
+    border-radius: 12px!important;
+    border: 1px solid rgba(255, 255, 255, 0.125)!important;
+}
+.income{
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 4px;
+  border-radius: 7px;
+  text-align: center;
+}
+.expence{
+  background-color: rgb(245, 120, 120);
+  color: white;
+  width: 100%;
+  padding: 4px;
+  border-radius: 7px;
+  text-align: center;
+}
+
+.bg_img{
+  background-image: url(../public/register.jpg);
+  width: 100%; height:100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, .15);
+
+}
+
+.links{
+  display: flex;
+  justify-content:start;
+  margin-right: 700px;
+
+}
+.footer{
+  /* position: fixed !important;
+  bottom: 0; */
+  width: 100%;
+}
+
+.progress_percent{
+  display: flex;
+  flex-direction: column;
+  gap: 10px !important;
+}
+
+.gp{
+  margin: 10px;
+}
